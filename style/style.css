@@ -129,11 +129,12 @@
 }
 .offer-img{
     color: #9a758f;
+    width: 60%;
 }
 .offer-text{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #9a758f;
     font-weight: 700;
     line-height: normal;
@@ -146,6 +147,9 @@
         color: #9a758f;
         font-weight: 700;
         line-height: normal;
+    }
+    .offer-element {
+     margin-bottom: 2rem;
     }
 }
 
