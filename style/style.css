@@ -1,0 +1,160 @@
+@font-face {
+    font-family: dancingScript;
+    src: url(/fonts/DancingScript-Bold.ttf);
+  }
+  @font-face {
+    font-family: myriadPro;
+    src: url(/fonts/MYRIADPRO-COND.OTF);
+  }
+
+
+.img-logo {
+    width: 30%;
+}
+.navbar-brand {
+    width: 60%;
+  }
+.nav-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+}
+@media (min-width: 992px) {
+    .navbar-brand{
+        padding-left: 100px;
+        /* width: 100%; */
+    }
+    .left-nav {
+        padding-right: 100px;
+    }
+    .img-logo {
+        width: 10%;
+    }
+}
+  .masthead {
+    min-height: 60vh;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-image: url(/img/main.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .masthead .masthead-heading {
+    font-size: 6rem;
+    line-height: 4rem;
+    font-family: dancingScript;
+  }
+  .masthead .masthead-subheading {
+    font-size: 2.1rem;
+    font-family: myriadPro;
+  }
+  @media (min-width: 992px) {
+    .masthead {
+        min-height: 130vh;
+      padding-top: calc(6rem + 400px);
+      padding-bottom: 6rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 10rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+    padding-top: 40px;
+      font-size: 3.5rem;
+    }
+  } 
+  .container {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  .page-section {
+      min-height: 50vh;
+  }
+   .page-section-heading {
+    font-size: 3.5rem;
+    line-height: 2rem;
+    font-family: dancingScript;
+    color: #9a758f !important;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .contact-section-heading {
+    font-size: 3.5rem;
+    line-height: 2rem;
+    font-family: dancingScript;
+    color: white !important;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  @media (min-width: 992px) {
+      .page-section{
+          min-height: 80vh;
+      }
+     .page-section-heading {
+      font-size: 5rem;
+      line-height: 2.5rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    .contact-section-heading  {
+        font-size: 5rem;
+        line-height: 2.5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+.offer-img{
+    color: #9a758f;
+}
+.offer-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: #9a758f;
+    font-weight: 700;
+    line-height: normal;
+}
+@media (min-width: 992px) {
+    .offer-text{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 2.5rem;
+        color: #9a758f;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.color-section {
+    background-color: #f6eaf0;
+}
+.contact-section {
+    background-color: #a6a6a6;
+}
+.copyright {
+    background-color: #424242;
+  }
