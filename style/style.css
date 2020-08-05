@@ -19,6 +19,9 @@
     font-style: italic;
     font-size: 24px;
 }
+.navbar li a:hover, .navbar-nav li.active a {
+  color: white;
+}
 @media (min-width: 992px) {
     .navbar-brand{
         padding-left: 100px;
@@ -88,7 +91,7 @@
   }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px;
+      max-width: 1200px;
     }
   }
   .page-section {
@@ -143,7 +146,7 @@
     .offer-text{
         font-family: 'Times New Roman', Times, serif;
         font-style: italic;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #9a758f;
         font-weight: 700;
         line-height: normal;
@@ -162,3 +165,65 @@
 .copyright {
     background-color: #424242;
   }
+.frame {
+  text-align: center;
+}
+.helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.helper-2 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30%;
+}
+.img-main {
+  vertical-align: middle;
+  width: 100%;
+  margin: auto;
+}
+  .p-class {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #9a758f;
+  }
+.p-class.contact {
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  .p-class {
+    font-size: 1.2rem;
+  }
+
+}
+.contact-text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #424242;
+}
+.contact-icon {
+  position: relative;
+  font-size: 2rem !important;
+  color: #424242;
+  padding-right: 1rem;
+}
+.footer-icon {
+  font-size: 2rem !important;
+  color: #9a758f;
+  padding-left: 0.5rem;
+}
+.footer-icon:hover{
+  color: white;
+  text-decoration: none;
+}
+.contact-link {
+  text-decoration: none;
+  color: #424242;
+}
+.contact-link:hover{
+  color: white;
+  text-decoration: none;
+}
