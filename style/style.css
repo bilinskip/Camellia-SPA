@@ -17,7 +17,7 @@
 .nav-item{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 20px;
 }
 .navbar li a:hover, .navbar-nav li.active a {
   color: white;
@@ -25,7 +25,6 @@
 @media (min-width: 992px) {
     .navbar-brand{
         padding-left: 100px;
-        /* width: 100%; */
     }
     .left-nav {
         padding-right: 100px;
@@ -38,14 +37,34 @@
     min-height: 60vh;
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
-    background-image: url(/img/main.jpg);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
+    animation: slider 16s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url(/img/main.jpg);
+    background-color: white;
+  }
+  @keyframes slider{
+    0% {
+      background-image: url(/img/main.jpg);
+    }
+    25% {
+      background-image: url(/img/main2.jpg);
+    }
+    50% {
+      background-image: url(/img/main3.jpg);
+    }
+    75%{
+      background-image: url(/img/main4.jpg);
+    }
+    100%{
+      background-image: url(/img/main.jpg);
+    }
   }
   .masthead .masthead-heading {
-    font-size: 6rem;
-    line-height: 4rem;
+    font-size: 5rem;
+    line-height: 3rem;
     font-family: dancingScript;
   }
   .masthead .masthead-subheading {
@@ -59,12 +78,12 @@
       padding-bottom: 6rem;
     }
     .masthead .masthead-heading {
-      font-size: 10rem;
+      font-size: 8rem;
       line-height: 3.5rem;
     }
     .masthead .masthead-subheading {
     padding-top: 40px;
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
   } 
   .container {
@@ -91,14 +110,14 @@
   }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1200px;
+      max-width: 1140px;
     }
   }
   .page-section {
       min-height: 50vh;
   }
    .page-section-heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 2rem;
     font-family: dancingScript;
     color: #9a758f !important;
@@ -106,7 +125,7 @@
     padding-bottom: 4rem;
   }
   .contact-section-heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 2rem;
     font-family: dancingScript;
     color: white !important;
@@ -118,13 +137,13 @@
           min-height: 80vh;
       }
      .page-section-heading {
-      font-size: 5rem;
+      font-size: 4rem;
       line-height: 2.5rem;
       padding-top: 5rem;
       padding-bottom: 5rem;
     }
     .contact-section-heading  {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 2.5rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
@@ -132,7 +151,7 @@
 }
 .offer-img{
     color: #9a758f;
-    width: 60%;
+    width: 50%;
 }
 .offer-text{
     font-family: 'Times New Roman', Times, serif;
@@ -146,7 +165,7 @@
     .offer-text{
         font-family: 'Times New Roman', Times, serif;
         font-style: italic;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #9a758f;
         font-weight: 700;
         line-height: normal;
@@ -180,7 +199,7 @@
 }
 .img-main {
   vertical-align: middle;
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
   .p-class {
@@ -200,13 +219,13 @@
 }
 .contact-text{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: italic;
   color: #424242;
 }
 .contact-icon {
   position: relative;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   color: #424242;
   padding-right: 1rem;
 }

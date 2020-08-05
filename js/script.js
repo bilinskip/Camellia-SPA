@@ -20,11 +20,6 @@ $(document).ready(function(){
         });
       } // End if
     });
-    // Activate scrollspy to add active class to navbar items on scroll
-    $('body').scrollspy({
-        target: '#myNavbar',
-        offset: 80
-      });
     $(window).scroll(function() {
       $(".slideanim").each(function(){
         var pos = $(this).offset().top;
